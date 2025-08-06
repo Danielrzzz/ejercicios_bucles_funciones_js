@@ -38,7 +38,7 @@ let decade = "";
             decade = '2020';
             break;
         default:
-            decade = 'none'
+            decade = 'others'
             console.log("Star Wars doesn't have any movies in that year, at least not yet...");
     }
     if(!years[decade]) {
